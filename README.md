@@ -28,7 +28,7 @@ Este proyecto es un portafolio profesional desarrollado para demostrar los funda
 ## 🔗 LINKS:
 *   **🌍 Despliegue:** [anthonyescobarumg.vercel.app](https://anthonyescobarumg.vercel.app/)
 *   **📂 GitHub:** [Laboratorio Web UMG Anthony Escobar](https://github.com/AnthonyJEscobarP/HTML_CSS_LaboratorioWeb_UMG)
-*   **📄 Documentación:** [REPORTE INTERNO (PDF)](./public/doc/Laboratorio%20Web%20UMG%20-%20Anthony%20Escobar.pdf)
+*   **📄 Documentación:** [REPORTE INTERNO (PDF)](./docs/doc/Laboratorio%20Web%20UMG%20-%20Anthony%20Escobar.pdf)
 
 ---
 
