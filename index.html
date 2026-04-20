@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+            />
+        <meta name="description" content="Portafolio profesional de Anthony Escobar - Desarrollador Full Stack Junior" />
+        <title>Anthony Escobar - Desarrollador Full Stack</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="shortcut icon" href="img/AE_Solutions_Logo.png" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+    <body>
+
+        <div id="panelBienvenida" class="panel_bienvenida oculto">
+            <div class="contenido_bienvenida">
+                <i class="fa-solid fa-hand-sparkles icono_bienvenida"></i>
+                <p id="textoBienvenida"></p>
+                <button id="cerrarBienvenida" class="boton_cerrar_bienvenida">Continuar</button>
+                <button id="botonBorrarDatos" class="boton_borrar_datos">Cerrar Sesion</button>
+            </div>
+        </div>
+
+        <header>
+            <div class="contenedor_Encabezado">
+                <div class="barraNavegacion">
+                    <div class="soporteCliente">
+                        <i class="iconos2 fa-solid fa-code" style="font-size: 2.4rem; padding-right: 1.5rem; border-right: 1px solid var(--border-subtle);"></i>
+                        <div class="indicadorEstado" style="margin-left: 10px;">
+                            <span class="textosMenores">Desarrollador Full Stack Junior</span>
+                            <span class="textosMenores2">Guatemala</span>
+                        </div>
+                    </div>
+
+                    <div class="TituloPrincipal">
+                        <img src="img/AE_Solutions_Logo.png" alt="AE Solutions Logo" class="logo_cabecera" />
+                        <h1 class="logo">Anthony Escobar</h1>
+                    </div>
+
+                    <div class="usuariosybusquedaPrincipal" style="width: 250px; justify-content: flex-end;">
+                        <button id="botonCerrarSesionCabecera" class="boton_cerrar_bienvenida" style="padding: 0.8rem 1.5rem; font-size: 1.2rem; display: flex; align-items: center; gap: 0.5rem; background: rgba(255, 255, 255, 0.1); border: 1px solid rgba(255, 255, 255, 0.2); color: var(--text-primary);">
+                            <i class="fa-solid fa-right-from-bracket"></i> Cerrar Sesion
+                        </button>
+                    </div>
+                </div>
+
+                <div class="contenidoNavegacion">
+                    <nav class="navbar barraNavegacion">
+                        <i class="fa-solid fa-bars"></i>
+                        <ul class="menuPrincipal">
+                            <li><a href="#sobreMi">Sobre Mi</a></li>
+                            <li><a href="#trayectoria">Trayectoria</a></li>
+                            <li><a href="#capacidades">Capacidades</a></li>
+                            <li><a href="#escribeme">Contacto</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <section class="banner">
+            <div class="content-banner">
+                <h2>Anthony Escobar</h2>
+                <h3>DESARROLLADOR FULL STACK JUNIOR</h3>
+                <a href="#escribeme">Contactame</a>
+            </div>
+        </section>
+
+        <main class="main-content">
+            <section id="sobreMi" class="barraNavegacion zona_perfil">
+                <h2 class="heading-1">Sobre Mi</h2>
+                <div class="contenedor_perfil">
+                    <div class="tarjeta_foto">
+                        <img src="img/yo.jpeg" alt="Foto de perfil de Anthony Escobar" class="foto_perfil" />
+                    </div>
+                    <div class="tarjeta_resumen">
+                        <h3 class="subtitulo_perfil">Anthony Escobar</h3>
+                        <span class="etiqueta_rol">Desarrollador Full Stack Junior</span>
+                        <p class="descripcion_personal">
+                            Programador con formacion tecnica en desarrollo de software, redes y bases de
+                            datos. Profesional responsable, creativo y adaptable, con habilidades de
+                            comunicacion efectiva, analisis y resolucion de problemas.
+                            Busco crecer profesionalmente, aportando soluciones funcionales e innovadoras.
+                        </p>
+                        <div class="datos_rapidos">
+                            <div class="dato_individual">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <span>Guatemala</span>
+                            </div>
+                            <div class="dato_individual">
+                                <i class="fa-solid fa-envelope"></i>
+                                <span>anthonyescobarponce@outlook.com</span>
+                            </div>
+                            <div class="dato_individual">
+                                <i class="fa-solid fa-phone"></i>
+                                <span>+502 3252-0731</span>
+                            </div>
+                            <div class="dato_individual">
+                                <i class="fa-solid fa-language"></i>
+                                <span>Español (Nativo) / Ingles (80%)</span>
+                            </div>
+                        </div>
+                        <div class="enlaces_sociales">
+                            <a href="https://github.com/AnthonyJEscobarP" class="boton_social github_boton">
+                                <i class="fa-brands fa-github"></i> GitHub
+                            </a>
+                            <a href="https://www.linkedin.com/in/anthony-josu%C3%A9-escobar-ponce-71004437b/" class="boton_social linkedin_boton">
+                                <i class="fa-brands fa-linkedin-in"></i> LinkedIn
+                            </a>
+                            <a href="https://ae--technologies.web.app/" class="boton_social portafolio_boton">
+                                <i class="fa-solid fa-globe"></i> Portafolio
+                            </a>
+                            <a href="mailto:anthonyescobarponce@outlook.com" class="boton_social correo_boton">
+                                <i class="fa-solid fa-envelope"></i> Email
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <main class="main-content2">
+            <section id="trayectoria" class="barraNavegacion zona_experiencia">
+                <h2 class="heading-1">Trayectoria</h2>
+                <div class="contenedor_linea_tiempo">
+                    <div class="columna_tiempo">
+                        <h3 class="subtitulo_seccion">
+                            <i class="fa-solid fa-briefcase"></i> Experiencia Laboral
+                        </h3>
+                        <div class="tarjeta_tiempo">
+                            <span class="periodo_tiempo">2024 - 2025</span>
+                            <h4>Desarrollador Web Freelance</h4>
+                            <p class="lugar_tiempo">Independiente</p>
+                            <p class="detalle_tiempo">
+                                Diseño y desarrollo de sitios web de presentacion para
+                                emprendedores y universitarios.
+                                Desarrollo de pequeñas aplicaciones de escritorio para gestion de
+                                datos en negocios PYME.
+                            </p>
+                        </div>
+                        <div class="tarjeta_tiempo">
+                            <span class="periodo_tiempo">2019 - 2020</span>
+                            <h4>Apoyo en Venta y Servicio de Alimentos</h4>
+                            <p class="lugar_tiempo">RN SOUND</p>
+                            <p class="detalle_tiempo">
+                                Apoyo en venta de refrigerios y almuerzos, preparacion y organizacion
+                                del area de atencion, registro y control diario de ingresos y ventas.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="columna_tiempo">
+                        <h3 class="subtitulo_seccion">
+                            <i class="fa-solid fa-graduation-cap"></i> Formacion Academica
+                        </h3>
+                        <div class="tarjeta_tiempo">
+                            <span class="periodo_tiempo">2026 - Actualidad</span>
+                            <h4>Ingenieria en Sistemas de Informacion y Ciencias de la Computacion</h4>
+                            <p class="lugar_tiempo">Universidad Mariano Galvez de Guatemala</p>
+                            <p class="detalle_tiempo">
+                                Orientado al desarrollo e implementacion de sistemas
+                                informaticos, gestion de soluciones tecnologicas, software,
+                                bases de datos y redes para entornos empresariales.
+                            </p>
+                        </div>
+                        <div class="tarjeta_tiempo">
+                            <span class="periodo_tiempo">2020 - 2025</span>
+                            <h4>Perito en Computacion / Ciclo Basico</h4>
+                            <p class="lugar_tiempo">Centro Educativo Tecnico Laboral KINAL</p>
+                            <p class="detalle_tiempo">
+                                Enfocado en desarrollo de software, APIs web, redes, bases de
+                                datos y fundamentos de ingenieria en sistemas.
+                            </p>
+                        </div>
+                        <div class="tarjeta_tiempo">
+                            <span class="periodo_tiempo">2014 - 2019</span>
+                            <h4>Educacion Primaria</h4>
+                            <p class="lugar_tiempo">Colegio Verbo Alamos</p>
+                            <p class="detalle_tiempo">
+                                Formacion primaria completada.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <main class="main-content4">
+            <section id="capacidades" class="barraNavegacion zona_habilidades">
+                <h2 class="heading-1">Capacidades</h2>
+                <div class="contenedor_capacidades">
+                    <div class="grupo_habilidades">
+                        <h3 class="subtitulo_seccion">
+                            <i class="fa-solid fa-star"></i> Competencias Personales
+                        </h3>
+                        <ul class="lista_habilidades">
+                            <li>
+                                <i class="fa-solid fa-check-circle"></i>
+                                <span>Comunicacion Asertiva</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check-circle"></i>
+                                <span>Oratoria</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check-circle"></i>
+                                <span>Empatia</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check-circle"></i>
+                                <span>Iniciativa y Proactividad</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check-circle"></i>
+                                <span>Pensamiento Analitico</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check-circle"></i>
+                                <span>Perseverancia</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check-circle"></i>
+                                <span>Adaptabilidad</span>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check-circle"></i>
+                                <span>Trabajo en Equipo</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="grupo_habilidades">
+                        <h3 class="subtitulo_seccion">
+                            <i class="fa-solid fa-laptop-code"></i> Habilidades Tecnicas
+                        </h3>
+                        <ul class="lista_habilidades">
+                            <li>
+                                <i class="fa-brands fa-github"></i>
+                                <span>GitHub</span>
+                                <div class="barra_progreso"><div class="progreso_nivel" style="width: 90%"></div></div>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-java"></i>
+                                <span>Java (Spring Boot, JavaFX)</span>
+                                <div class="barra_progreso"><div class="progreso_nivel" style="width: 85%"></div></div>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-react"></i>
+                                <span>React</span>
+                                <div class="barra_progreso"><div class="progreso_nivel" style="width: 85%"></div></div>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-network-wired"></i>
+                                <span>Redes (CCNA / IT Essentials)</span>
+                                <div class="barra_progreso"><div class="progreso_nivel" style="width: 80%"></div></div>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-html5"></i>
+                                <span>HTML5 / CSS</span>
+                                <div class="barra_progreso"><div class="progreso_nivel" style="width: 80%"></div></div>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-database"></i>
+                                <span>PostgreSQL</span>
+                                <div class="barra_progreso"><div class="progreso_nivel" style="width: 80%"></div></div>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-database"></i>
+                                <span>MySQL / MongoDB</span>
+                                <div class="barra_progreso"><div class="progreso_nivel" style="width: 70%"></div></div>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-js-square"></i>
+                                <span>JavaScript (Node, Express)</span>
+                                <div class="barra_progreso"><div class="progreso_nivel" style="width: 65%"></div></div>
+                            </li>
+                            <li>
+                                <i class="fa-brands fa-python"></i>
+                                <span>Python</span>
+                                <div class="barra_progreso"><div class="progreso_nivel" style="width: 60%"></div></div>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-robot"></i>
+                                <span>Inteligencia Artificial</span>
+                                <div class="barra_progreso"><div class="progreso_nivel" style="width: 60%"></div></div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="grupo_habilidades">
+                        <h3 class="subtitulo_seccion">
+                            <i class="fa-solid fa-globe"></i> Idiomas
+                        </h3>
+                        <ul class="lista_habilidades">
+                            <li>
+                                <i class="fa-solid fa-flag"></i>
+                                <span>Español - Nativo</span>
+                                <div class="barra_progreso"><div class="progreso_nivel" style="width: 100%"></div></div>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-flag"></i>
+                                <span>Ingles - Avanzado</span>
+                                <div class="barra_progreso"><div class="progreso_nivel" style="width: 80%"></div></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <main class="main-content3">
+            <section id="escribeme" class="barraNavegacion zona_formulario">
+                <h2 class="heading-1">Contacto</h2>
+                <div class="contenedor_formulario">
+                    <div class="panel_formulario">
+                        <div class="encabezado_formulario">
+                            <i class="fa-solid fa-paper-plane"></i>
+                            <h3>Formulario de Contacto</h3>
+                            <p>Dejame tus datos y me pondre en contacto contigo</p>
+                        </div>
+                        <form id="formularioContacto" class="campos_formulario">
+                            <div class="grupo_campo">
+                                <label for="campoNombre">Nombre Completo</label>
+                                <div class="entrada_con_icono">
+                                    <i class="fa-solid fa-user"></i>
+                                    <input type="text" id="campoNombre" name="nombre" placeholder="Escribe tu nombre..." required />
+                                </div>
+                            </div>
+                            <div class="grupo_campo">
+                                <label for="campoCorreo">Correo Electronico</label>
+                                <div class="entrada_con_icono">
+                                    <i class="fa-solid fa-envelope"></i>
+                                    <input type="email" id="campoCorreo" name="correo" placeholder="Escribe tu correo..." required />
+                                </div>
+                            </div>
+                            <div class="grupo_campo">
+                                <label for="campoMensaje">Mensaje</label>
+                                <div class="entrada_con_icono area_texto">
+                                    <i class="fa-solid fa-comment-dots"></i>
+                                    <textarea id="campoMensaje" name="mensaje" placeholder="Escribe tu mensaje aqui..." rows="5" required></textarea>
+                                </div>
+                            </div>
+                            <button type="submit" class="boton_enviar">
+                                <i class="fa-solid fa-paper-plane"></i> Enviar Mensaje
+                            </button>
+                        </form>
+                        <div id="confirmarEnvio" class="mensaje_confirmacion oculto">
+                            <i class="fa-solid fa-circle-check"></i>
+                            <p>Mensaje enviado correctamente</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div class="barraNavegacion container-footer">
+                <div class="menu-footer">
+                    <div class="contact-info">
+                        <p class="title-footer">Informacion de Contacto</p>
+                        <ul>
+                            <li class="fa-solid fa-location-pin"></li>
+                            <li>Guatemala</li>
+                            <li class="iconos fa-solid fa-envelope"></li>
+                            <li>Emails:
+                                anthonyescobarponce@outlook.com</li>
+                        </ul>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/anthony-josu%C3%A9-escobar-ponce-71004437b/" class="linkedin_icono">
+                                <i class="fa-brands fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://github.com/AnthonyJEscobarP" class="github_icono">
+                                <i class="fa-brands fa-github"></i>
+                            </a>
+                            <a href="https://ae--technologies.web.app/" class="portafolio_icono">
+                                <i class="fa-solid fa-globe"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="information">
+                        <p class="title-footer">Navegacion</p>
+                        <ul>
+                            <li><a href="#sobreMi">Sobre Mi</a></li>
+                            <li><a href="#trayectoria">Trayectoria</a></li>
+                            <li><a href="#capacidades">Capacidades</a></li>
+                            <li><a href="#escribeme">Contacto</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="my-account">
+                        <p class="title-footer">Formacion</p>
+                        <ul>
+                            <li><a href="https://www.umg.edu.gt/">Universidad Mariano Galvez</a></li>
+                            <li><a href="https://www.kinal.org.gt/">Fundacion KINAL</a></li>
+                            <li><a href="https://github.com/AnthonyJEscobarP?tab=repositories">Repositorios GitHub</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="newsletter">
+                        <p class="title-footer">Acerca de Este Proyecto</p>
+                        <div class="content">
+                            <p>Este portafolio fue desarrollado como parte del laboratorio de la Universidad Mariano Galvez de Guatemala,
+                                utilizando las tecnologias fundamentales de la web: HTML5, CSS3 y JavaScript.</p>
+                            <br>
+                            <a class="links" href="https://github.com/AnthonyJEscobarP/HTML_CSS_LaboratorioWeb_UMG">REPOSITORIO DEL PROYECTO</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="copyright">
+                    <p>
+                        Desarrollado por Anthony Escobar &copy; 2026
+                    </p>
+                    <p>
+                        AE Techno-Solutions
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
