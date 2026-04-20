@@ -3,15 +3,14 @@
 <div align="center">
   <img src="img/AE_Solutions_Logo.png" alt="AE Solutions Logo" width="120" style="border-radius: 50%;">
   <h3>Universidad Mariano Gálvez de Guatemala</h3>
-  <p><b>Ingeniería en Sistemas de Información y Ciencias de la Computación</b></p>
 </div>
 
 ---
 
-## 👤 Información del Estudiante
+## 👤 Información
 *   **Nombre:** Anthony Josué Escobar Ponce
 *   **Carnet:** 5190 26 2378
-*   **Curso:** Programación I / Laboratorio de Sistemas
+*   **Curso:** INTRODUCCIÓN A LOS SISTEMAS DE CÓMPUTO
 
 ---
 
@@ -26,9 +25,9 @@ Este proyecto es un portafolio profesional desarrollado para demostrar los funda
 
 ---
 
-## 🔗 Enlaces Importantes
-*   **🌍 Despliegue en Vercel:** [anthonyescobarumg.vercel.app](https://anthonyescobarumg.vercel.app/)
-*   **📂 Repositorio GitHub:** [Laboratorio Web UMG Anthony Escobar](https://github.com/AnthonyJEscobarP/HTML_CSS_LaboratorioWeb_UMG)
+## 🔗 LINKS:
+*   **🌍 Despliegue:** [anthonyescobarumg.vercel.app](https://anthonyescobarumg.vercel.app/)
+*   **📂 GitHub:** [Laboratorio Web UMG Anthony Escobar](https://github.com/AnthonyJEscobarP/HTML_CSS_LaboratorioWeb_UMG)
 *   **📄 Documentación:** [REPORTE INTERNO (PDF)](./public/doc/Laboratorio%20Web%20UMG%20-%20Anthony%20Escobar.pdf)
 
 ---
