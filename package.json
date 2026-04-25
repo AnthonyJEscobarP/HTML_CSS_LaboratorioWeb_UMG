@@ -1,0 +1,11 @@
+{
+  "name": "parcial-productos-umg",
+  "version": "1.0.0",
+  "private": true,
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.14.0"
+  }
+}

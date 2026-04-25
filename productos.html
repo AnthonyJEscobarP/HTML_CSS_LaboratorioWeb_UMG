@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Gestion de Productos - Inventario</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="shortcut icon" href="img/AE_Solutions_Logo.png" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    </head>
+    <body>
+        <header>
+            <div class="contenedor_Encabezado">
+                <div class="barraNavegacion">
+                    <div class="soporteCliente">
+                        <i class="iconos2 fa-solid fa-screwdriver-wrench" style="font-size: 2.4rem; padding-right: 1.5rem; border-right: 1px solid var(--border-subtle);"></i>
+                        <div class="indicadorEstado" style="margin-left: 10px;">
+                            <span class="textosMenores">Gestion de Productos</span>
+                            <span class="textosMenores2">UMG - Parcial</span>
+                        </div>
+                    </div>
+                    <div class="TituloPrincipal">
+                        <img src="img/AE_Solutions_Logo.png" alt="Logo" class="logo_cabecera" />
+                        <h1 class="logo">Gestion</h1>
+                    </div>
+                    <div class="usuariosybusquedaPrincipal" style="width: 250px; justify-content: flex-end;">
+                        <a href="index.html" class="boton_cerrar_bienvenida" style="padding: 0.8rem 1.5rem; font-size: 1.2rem; display: inline-flex; align-items: center; gap: 0.5rem; text-decoration: none;">
+                            <i class="fa-solid fa-arrow-left"></i> Inventario
+                        </a>
+                    </div>
+                </div>
+                <div class="contenidoNavegacion">
+                    <nav class="navbar barraNavegacion">
+                        <ul class="menuPrincipal">
+                            <li><a href="index.html">Productos</a></li>
+                            <li><a href="productos.html" class="activo">Gestion</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <section class="banner banner_compacto">
+            <div class="content-banner">
+                <h2>Gestion de Productos</h2>
+                <h3>CREAR, EDITAR Y ELIMINAR PRODUCTOS</h3>
+            </div>
+        </section>
+
+        <main class="main-content">
+            <section class="barraNavegacion zona_gestion">
+                <h2 class="heading-1">Formulario</h2>
+
+                <div class="contenedor_formulario">
+                    <div class="panel_formulario">
+                        <div class="encabezado_formulario">
+                            <i class="fa-solid fa-pen-to-square"></i>
+                            <h3 id="tituloFormulario">Nuevo Producto</h3>
+                            <p id="subtituloFormulario">Completa los datos del producto</p>
+                        </div>
+                        <form id="formularioProducto" class="campos_formulario">
+                            <input type="hidden" id="campoId" />
+                            <div class="grupo_campo">
+                                <label for="campoNombre">Nombre</label>
+                                <div class="entrada_con_icono">
+                                    <i class="fa-solid fa-box"></i>
+                                    <input type="text" id="campoNombre" placeholder="Nombre del producto" required />
+                                </div>
+                            </div>
+                            <div class="grupo_campo">
+                                <label for="campoCategoria">Categoria</label>
+                                <div class="entrada_con_icono">
+                                    <i class="fa-solid fa-tag"></i>
+                                    <input type="text" id="campoCategoria" placeholder="Categoria" required />
+                                </div>
+                            </div>
+                            <div class="fila_doble">
+                                <div class="grupo_campo">
+                                    <label for="campoPrecio">Precio</label>
+                                    <div class="entrada_con_icono">
+                                        <i class="fa-solid fa-dollar-sign"></i>
+                                        <input type="number" id="campoPrecio" placeholder="0.00" step="0.01" min="0" required />
+                                    </div>
+                                </div>
+                                <div class="grupo_campo">
+                                    <label for="campoStock">Stock</label>
+                                    <div class="entrada_con_icono">
+                                        <i class="fa-solid fa-warehouse"></i>
+                                        <input type="number" id="campoStock" placeholder="0" step="1" min="0" required />
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="acciones_formulario">
+                                <button type="submit" class="boton_enviar" id="botonGuardar">
+                                    <i class="fa-solid fa-floppy-disk"></i> <span>Guardar</span>
+                                </button>
+                                <button type="button" class="boton_cancelar oculto" id="botonCancelar">
+                                    <i class="fa-solid fa-xmark"></i> Cancelar
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <main class="main-content2">
+            <section class="barraNavegacion zona_gestion">
+                <h2 class="heading-1">Productos</h2>
+
+                <div class="tabla_envoltorio">
+                    <table class="tabla_productos">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Nombre</th>
+                                <th>Categoria</th>
+                                <th>Precio</th>
+                                <th>Stock</th>
+                                <th>Acciones</th>
+                            </tr>
+                        </thead>
+                        <tbody id="cuerpoTabla"></tbody>
+                    </table>
+                    <div id="estadoTabla" class="estado_tabla">Cargando productos...</div>
+                </div>
+            </section>
+        </main>
+
+        <div id="toast" class="toast oculto"></div>
+
+        <footer class="footer">
+            <div class="barraNavegacion container-footer">
+                <div class="copyright">
+                    <p>Desarrollado por Anthony Escobar &copy; 2026</p>
+                    <p>AE Techno-Solutions</p>
+                </div>
+            </div>
+        </footer>
+
+        <script src="productos.js"></script>
+    </body>
+</html>
